@@ -67,7 +67,9 @@ const Dashboard = ()=>{
                 :
                 <div>You have not Logged yet</div>
                 }
-
+                <br />
+                <br />
+                <br />
                 {
                     adminAuth ? 
                     <table>
