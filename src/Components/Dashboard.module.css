@@ -1,0 +1,17 @@
+body{
+    margin-top: 80px;
+    background-color: #cecece;
+    height: 2000px;
+}
+.thead{
+    font-weight: 800;
+}
+
+table{
+    font-size: 30px;
+    margin: auto;
+}
+
+td{
+    border: 1px solid black;
+}

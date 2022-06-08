@@ -23,12 +23,24 @@ body{
     right: 0;
 }
 
-.navbar div{
+.dashboard{
     cursor: pointer;
-    border: 1px solid black;
-    border-radius: 10px;
     padding: 5px;
 }
 
+.login_buttons{
+    display: flex;
+}
 
+.login_buttons div{
+    cursor: pointer;
+    margin-right: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
 
+.link_decor{
+    text-decoration: none;
+    color: black;
+}
