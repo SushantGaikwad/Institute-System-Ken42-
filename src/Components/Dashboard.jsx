@@ -23,7 +23,7 @@ const Dashboard = ()=>{
     const fetchStudents = async ()=>{
 
         try {
-            let data = await fetch("http://localhost:3001/students");
+            let data = await fetch("https://institute-system.herokuapp.com/students");
             let res = await data.json();
 
             setUsers(res);
@@ -102,10 +102,12 @@ const Dashboard = ()=>{
                 <br />
                 <br />
                 <br />
-                <h1>Student Pie Chart</h1>
+                <br />
+                
                 {
                     adminAuth ? 
                     users ? 
+                    
                     <Chart
                         type="pie"
                         width={2000}
